@@ -1,0 +1,80 @@
+/* General page styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(11, 11, 9);
+    font-family: Arial, sans-serif;
+}
+
+/* Styling the course list container */
+#course-list {
+    background-color: rgb(26, 28, 28);
+    padding: 2em;
+    border-radius: 1em;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    max-width: 800px;
+    margin: 2em auto;
+    list-style: none;
+}
+
+/* Styling the heading */
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: cornsilk;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Styling list items and links */
+li {
+    background-color: rgb(26, 28, 28);
+    margin: 1em 0;
+    border-radius: 0.5em;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 1em;
+}
+
+li a {
+    color: orange;
+    background-color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8em;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 1em;
+    transition: color 0.1s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+/* Hover effects for links */
+li a:hover {
+    background-color: rgb(168, 164, 158);
+    color: rgb(35, 85, 88);
+    border: 2px solid rgb(181, 169, 32);
+    padding: 1em;
+    border-radius: 1em;
+}
+
+/* Hover effects for list items */
+li:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 6px 20px rgba(206, 170, 10, 0.7);
+}
+
+/* Optional footer styling */
+footer {
+    text-align: center;
+    color: cornsilk;
+    margin-top: 2em;
+    padding: 1em;
+    background-color: rgb(26, 28, 28);
+    border-top: 2px solid rgb(168, 164, 158);
+    font-size: 0.9em;
+}
